@@ -22,7 +22,7 @@ The required dependencies are listed in the `environment.yml` file. You can crea
 conda env create -f environment.yml
 ```
 
-Note: You may need to install ngspice separately for circuit simulation.
+Note: You need to install ngspice separately for circuit simulation.
 
 ## Project Structure
 
@@ -38,7 +38,7 @@ Note: You may need to install ngspice separately for circuit simulation.
 - `mosfet_model/`: MOSFET model files for circuit simulation
 
 ## Usage
-
+Before running the optimization, make sure to extract the mosfet_model.zip file in the project root directory. This archive contains the PDK required for ngspice simulation.
 To run the optimization:
 
 ```bash
