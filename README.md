@@ -39,6 +39,7 @@ Note: You need to install ngspice separately for circuit simulation.
 
 ## Usage
 Before running the optimization, make sure to extract the mosfet_model.zip file in the project root directory. This archive contains the PDK required for ngspice simulation.
+
 To run the optimization:
 
 ```bash
